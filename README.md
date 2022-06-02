@@ -18,17 +18,20 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+What to expect :
 
-To learn more about Next.js, take a look at the following resources:
+The following is are a few snipets of The documentation of the API 
+![image](https://user-images.githubusercontent.com/13431164/171746321-c55ae3e8-4fc9-4436-b571-d2811087807b.png)
+![image](https://user-images.githubusercontent.com/13431164/171746583-abbab943-0c89-47b5-9486-a7fd42a38df8.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+An example of the dat received from the routes trip
+![image](https://user-images.githubusercontent.com/13431164/171746469-c37beca2-30ed-483c-bdf4-aef6bf31d5a9.png)
 
-## Deploy on Vercel
+## Tools used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next Js Framework
+Postgresql
+Prisma
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
