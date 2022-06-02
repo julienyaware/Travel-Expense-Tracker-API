@@ -25,13 +25,13 @@ The following is are a few snipets of The documentation of the API
 ![image](https://user-images.githubusercontent.com/13431164/171746583-abbab943-0c89-47b5-9486-a7fd42a38df8.png)
 
 
-An example of the dat received from the routes trip
+An example of the data received from the routes trip
 ![image](https://user-images.githubusercontent.com/13431164/171746469-c37beca2-30ed-483c-bdf4-aef6bf31d5a9.png)
 
 ## Tools used
 
-Next Js Framework
-Postgresql
+Next Js Framework,
+Postgresql,
 Prisma
 
 
