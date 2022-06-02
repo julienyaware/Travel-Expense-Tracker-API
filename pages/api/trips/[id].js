@@ -33,6 +33,15 @@ if(req.method === 'PUT'){
     return res.status(200).end()
 }
 
+if(req.method === 'DELETE'){
+    await prisma.trip.delete({
+        where: {
+            id: parseInt(req.query.id)
+        }
+    })
+   return  res.status(200).end()
+   }
+
 res.status(405).json({
     message: 'Method not allowed'
 })

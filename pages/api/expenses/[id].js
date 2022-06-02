@@ -36,6 +36,15 @@ export default async function handler(req,res){
         return res.status(200).end()
       }
 
+      if(req.method === 'DELETE'){
+       await prisma.expenses.delete({
+           where: {
+               id: parseInt(req.query.id)
+           }
+       })
+      return  res.status(200).end()
+      }
+
       res.status(405).json({
           message: 'Method not allowed'
       })
