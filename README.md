@@ -21,8 +21,8 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 What to expect :
 
 The following is are a few snipets of The documentation of the API 
-![image](https://user-images.githubusercontent.com/13431164/171746321-c55ae3e8-4fc9-4436-b571-d2811087807b.png =400*790)
-![image](https://user-images.githubusercontent.com/13431164/171746583-abbab943-0c89-47b5-9486-a7fd42a38df8.png =400*790)
+![image](https://user-images.githubusercontent.com/13431164/171746321-c55ae3e8-4fc9-4436-b571-d2811087807b.png)
+![image](https://user-images.githubusercontent.com/13431164/171746583-abbab943-0c89-47b5-9486-a7fd42a38df8.png)
 
 
 An example of the dat received from the routes trip
