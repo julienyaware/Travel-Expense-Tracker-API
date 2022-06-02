@@ -15,4 +15,26 @@ if(req.method === 'GET'){
 
     res.status(200).json(trip)
 }
+if(req.method === 'PUT'){
+    const {user, name, startDate, endDate} = req.body 
+
+    await prisma.trip.update({
+        data : {
+         user,
+         name,
+         startDate,
+         endDate
+        },
+        where : {
+         id: parseInt(req.query.id),
+        }
+    })
+
+    return res.status(200).end()
+}
+
+res.status(405).json({
+    message: 'Method not allowed'
+})
+
 }
